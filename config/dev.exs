@@ -22,6 +22,12 @@ config :hello, HelloWeb.Endpoint,
   check_origin: false,
   watchers: [
     node: [
+      "node_modules/.bin/bsb",
+      "-make-world",
+      "-w",
+      cd: Path.expand("../assets", __DIR__)
+    ],
+    node: [
       "node_modules/webpack/bin/webpack.js",
       "--mode",
       "development",

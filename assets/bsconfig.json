@@ -1,0 +1,9 @@
+{
+  "name": "example",
+  "reason": { "react-jsx": 3 },
+  "sources": "src",
+  "suffix": ".bs.js",
+  "bs-dependencies": ["reason-react"],
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3
+}

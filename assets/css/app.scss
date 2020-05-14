@@ -1,5 +1,9 @@
 /* This file is for your main application css. */
-@import "./phoenix.css";
+// @import "./phoenix.css";
+
+html {
+  background-color: red;
+}
 
 /* Alerts and form errors */
 .alert {
