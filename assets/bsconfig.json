@@ -3,7 +3,7 @@
   "reason": { "react-jsx": 3 },
   "sources": "src",
   "suffix": ".bs.js",
-  "bs-dependencies": ["reason-react"],
+  "bs-dependencies": ["reason-react", "bs-fetch", "@glennsl/bs-json"],
   "bsc-flags": ["-bs-super-errors"],
   "refmt": 3
 }
