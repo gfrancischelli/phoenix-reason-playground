@@ -13,6 +13,11 @@ defmodule HelloWeb.Router do
     plug :accepts, ["json"]
   end
 
+  scope "/api", HelloWeb do
+    pipe_through :api
+    get "/hello", HelloController, :index
+  end
+
   scope "/", HelloWeb do
     pipe_through :browser
 

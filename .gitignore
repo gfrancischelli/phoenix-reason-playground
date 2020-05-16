@@ -37,3 +37,5 @@ npm-debug.log
 /assets/lib
 /assets/.bsb.lock
 /assets/.merlin
+
+.elixir_ls
